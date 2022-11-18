@@ -1,0 +1,78 @@
+.posttitle {
+    text-align: center;
+    font-size: 72px;
+    background-image: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body, html{
+    background-image: linear-gradient(to bottom,green, blue);
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+}
+.postdata {
+    text-align: center;
+    color: brown;
+}
+.postauthorname {
+background-image: linear-gradient(red,  yellow);
+
+}
+.importanttext {
+    background-image: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+
+}
+.center {
+    margin: auto;
+    width: 50%;
+}
+.card {
+    border: 7px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(red, yellow);
+
+}
+a:hover{
+    color: blanchedalmond;
+    
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+input{
+    text-align: center;
+}
